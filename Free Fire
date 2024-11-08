@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos - Free Fire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #ff6600;
+        }
+        .video {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 20px auto;
+            padding: 15px;
+            max-width: 600px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+        .description {
+            margin-top: 10px;
+            color: #333;
+        }
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #ff6600;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos - Free Fire</h1>
+
+    <div class="video">
+        <h2>Vídeo 1: Free Fire Gameplay</h2>
+        <iframe src="https://www.youtube.com/embed/rhgaLmpKtQE" frameborder="0" allowfullscreen></iframe>
+        <div class="description">
+            Neste vídeo, você verá uma gameplay incrível de Free Fire, com dicas e estratégias de jogo!
+        </div>
+        <a href="https://www.youtube.com/watch?v=rhgaLmpKtQE&t=81s" target="_blank">Assistir no YouTube</a>
+    </div>
+
+    <div class="video">
+        <h2>Vídeo 2: Free Fire Dicas Avançadas</h2>
+        <iframe src="https://www.youtube.com/embed/cmiaIFgWuYA" frameborder="0" allowfullscreen></iframe>
+        <div class="description">
+            Aprenda dicas avançadas para se tornar um jogador profissional de Free Fire!
+        </div>
+        <a href="https://www.youtube.com/watch?v=cmiaIFgWuYA" target="_blank">Assistir no YouTube</a>
+    </div>
+
+</body>
+</html>
